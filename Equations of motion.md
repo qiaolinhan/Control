@@ -14,8 +14,6 @@
  
  ### Dynamic Equations of Motion
  ##### Newtonian Mechanics
- The first genertal euqation of motion-->developed-->`Newton's second Law of motion`.  
- States the rate of change of momentum _p=p(t)=m*v(t)_. It equals to the force acting on the object _F=dp/dt_, more famous it is written in _F=m*a_, sence _m_ is constant in Newton's mechanics.
- 
- 
+The first genertal euqation of motion-->developed-->`Newton's second Law of motion`.  
+States the rate of change of momentum _p=p(t)=m*v(t)_. It equals to the force acting on the object _F=dp/dt_, more famous it is written in _F=m*a_, sence _m_ is constant in Newton's mechanics.
  
