@@ -15,6 +15,6 @@ s=tf('s');
 % the system G
 G=1/(s*(s*s+s+1))
 
-options=optimoptions(@ga,'Populationsize',Popsize,'MaxGenerations',MaxGenerations,'OutputFcn',@myfun)
+options=optimoptions(ga,'Populationsize',Popsize,'MaxGenerations',MaxGenerations,'OutputFcn',@myfun)
 [x,fval]=ga(@(K)pidtest(G,dt,K),3-eye(3),zeros(3,1)) % ga: use GA. @(K): what parameter to optimize, so wrap 'pidtest' snd login G and dt
 
