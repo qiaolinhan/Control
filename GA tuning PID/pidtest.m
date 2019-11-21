@@ -1,4 +1,4 @@
-```
+```matlab
 % pidtest
 function J=pidtest(G,dt,parms)
 
