@@ -1,5 +1,3 @@
-```matlab
-% pidtest
 function J=pidtest(G,dt,parms)
 
 s=tf('s');
@@ -25,5 +23,5 @@ set(gca,'color','k','xcolor','w','ycolor','w')
 set(gcf,'color','k')
 drawnow
 
+end
 
-```
