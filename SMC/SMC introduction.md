@@ -14,7 +14,7 @@ $s(x)$ is the switch function, the order of $s(x)$ is usually the same as that o
 Then the sliding mode controller $ u(t)=[u_1(t) u_2(t) ... u_m(t)]^T $ is designed in the form of  
 $ u_i(t)={
          \begin{matrix}
-         u_i^+(t), & when s_i(x)>0,\\
+         u_i^+(t), & when s_i(x)>0,\\  
          u_i^-(t), & when s_i(x)<0,
          \end{matrix} 
          i=1,2,...,m. }$
