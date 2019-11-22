@@ -17,5 +17,5 @@ $ u_i(t)={
          u_i^+(t), & when s_i(x)>0,\\
          u_i^-(t), & when s_i(x)<0,
          \end{matrix} 
-         i=1,2,...,m. $
+         i=1,2,...,m. }$
 
