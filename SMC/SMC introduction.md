@@ -22,8 +22,8 @@ $ u_i(t)=[
 * Condition 1: Sliding mode is reached in finite time, the system state trajectories can be driven onto the specified sliding surface $ s(x)=0 $ and maintained for all subsequent time.
 * Condition 2: The dynamics in sliding surface $ s(x)=0 $ is stable with some specified performance. `Sliding mode dynamics`
 
-Further, there is ` $ \dot x(t)=f(x,u^+(t),t),s(x)>0 $ `
-Also, ` $ \dot x(t)=f(x,u^-(t),t),s(x)<0 $ `
+Further, there is $ \dot x(t)=f(x,u^+(t),t),s(x)>0 $
+Also, $ \dot x(t)=f(x,u^-(t),t),s(x)<0 $
 $ \Rightarrow $ $ \begin{matrix}\dot s(x)<0, & when s(x)>0\\ \dot s(x)>0,\\ when s(x)<0 \end{matrix} $  
 $ \Rightarrow $ $ s(x)\dot s(x)<0 $
 This is called reaching condition.  
