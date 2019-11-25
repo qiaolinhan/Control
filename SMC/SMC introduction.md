@@ -24,4 +24,9 @@ $ u_i(t)=[
 
 Further, there is ` $ \dot x(t)=f(x,u^+(t),t),s(x)>0 $ `
 Also, ` $ \dot x(t)=f(x,u^-(t),t),s(x)<0 $ `
-$ \Rightarrow $ $ {\begin{matrix}\dot s(x)<0, & when s(x)>0\\ \dot s(x)>0,\\ when s(x)<0 \end{matrix} $ 
+$ \Rightarrow $ $ \begin{matrix}\dot s(x)<0, & when s(x)>0\\ \dot s(x)>0,\\ when s(x)<0 \end{matrix} $  
+$ \Rightarrow $ $ s(x)\dot s(x)<0 $
+This is called reaching condition.  
+Therefore, a conventional SMC design consistes of 2 steps:  
+1. Design a sliding surface s(x)=0  
+2. Design a discontinuous feedback control $ u(t) $ such that the system state trajectories can be attracted to the designed sliding surface in a finite time and maintained on the surface for all subsequent time.
