@@ -24,4 +24,4 @@ $ u_i(t)=[
 
 Further, there is ` $ \dot x(t)=f(x,u^+(t),t),s(x)>0 $ `
 Also, ` $ \dot x(t)=f(x,u^-(t),t),s(x)<0 $ `
-$ \Rightarrow $ $ {\start{matrix}\dot s(x)<0, & \when s(x)>0\\ \dot s(x)>0,\\ \when s(x)<0 \end{matrix} $ 
+$ \Rightarrow $ $ {\begin{matrix}\dot s(x)<0, & \when s(x)>0\\ \dot s(x)>0,\\ \when s(x)<0 \end{matrix} $ 
