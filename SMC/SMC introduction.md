@@ -39,4 +39,10 @@ $ s(x) $
 * Not an equation
 Mode 1: approaching (reaching)   
 Mode 2: sliding condition    
-$ \lim_{s\rightarrow 0}s\dot s<0$
+$ \lim_{s\rightarrow 0}s\dot s<0$: 1.$ s>0,\dot s<0$ 2.$ s<0,\dot s>0$
+* We need to consider whether our system can be controlled by sliding mode and whether it is needed to use sliding mode.
+#### Approaching (Reaching)
+$ s\neq 0$  
+Approaching condition $ s\dot s<-\sigma|s|<0 (\sigma>0) $
+
+
