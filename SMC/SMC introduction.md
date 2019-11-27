@@ -30,3 +30,13 @@ This is called reaching condition.
 Therefore, a conventional SMC design consistes of 2 steps:  
 1. Design a sliding surface s(x)=0  
 2. Design a discontinuous feedback control $ u(t) $ such that the system state trajectories can be attracted to the designed sliding surface in a finite time and maintained on the surface for all subsequent time.
+
+
+#### Sliding Line
+$ s(x)=0 $ or sometimes be written in $ s(x_1,x_2)=0 $ --->sliding surface (3D)--->sliding mode
+#### Sliding Function
+$ s(x) $  
+* Not an equation
+Mode 1: approaching (reaching)   
+Mode 2: sliding condition    
+$ \lim_{s\rightarrow 0}s\dot s<0$
