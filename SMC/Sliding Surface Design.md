@@ -13,36 +13,36 @@ $ \dot x(t)=f(x,t)+B(x,t)u(t) $
 Where $ f(x,t)\in \mathbf{R}^n $ and $ B(x,t)\in\mathbf{R}^m$ are assumed to be continuous with bounded continuous derivatives with respect to $ x $. $ B(x,t) $ is bouned away from zero at any time.  
 Applying an appropriate diffeomorphic transformation
 \begin{align} 
-z(t)=
-\left[
-\begin{array}{c}
-z_1(t)\\
-z_2(t)\\
-\end{array}
-\right]
-=Tx(t)
+  z(t)=
+  \left[
+  \begin{array}{c}
+  z_1(t)\\
+  z_2(t)\\
+  \end{array}
+  \right]
+  =Tx(t)
 \end{align}
 The system can be written as
 \begin{equation}
-\left[
-\begin{array}{cc}
-\dot z_1(t)\\
-\dot z_2(t)\\
-\end{array}
-\right]
-=
-\left[
-\begin{array}{cc}
-\hat f_1(z,t)\\
-\hat f_2(z,t)\\
-\end{array}
-\right]
-+
-\left[
-\begin{array}{cc}
-0\\
-\hat B_1(z,t)
-end{array}
-\right]
-u(t)
+  \left[
+  \begin{array}{cc}
+  \dot z_1(t)\\
+  \dot z_2(t)\\
+  \end{array}
+  \right]
+  =
+  \left[
+  \begin{array}{cc}
+  \hat f_1(z,t)\\
+  \hat f_2(z,t)\\
+  \end{array}
+  \right]
+  +
+  \left[
+  \begin{array}{cc}
+  0\\
+  \hat B_1(z,t)
+  end{array}
+  \right]
+  u(t)
 \end{equation}
