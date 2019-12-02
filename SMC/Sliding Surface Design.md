@@ -15,14 +15,34 @@ Applying an appropriate diffeomorphic transformation
 \begin{align} 
 z(t)=
 \left[
-\begin{array}
+\begin{array}{c}
 z_1(t)\\
-z_2(t)
+z_2(t)\\
 \end{array}
 \right]
 =Tx(t)
 \end{align}
 The system can be written as
 \begin{equation}
-c=0
+\left[
+\begin{array}{cc}
+\dot z_1(t)\\
+\dot z_2(t)\\
+\end{array}
+\right]
+=
+\left[
+\begin{array}{cc}
+\hat f_1(z,t)\\
+\hat f_2(z,t)\\
+\end{array}
+\right]
++
+\left[
+\begin{array}{cc}
+0\\
+\hat B_1(z,t)
+end{array}
+\right]
+u(t)
 \end{equation}
