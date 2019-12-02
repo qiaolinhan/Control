@@ -21,8 +21,10 @@ Applying an appropriate diffeomorphic transformation
   \end{array}
   \right]
   =Tx(t)
-\end{align}
-The system can be written as
+\end{align}  
+
+The system can be written as  
+
 \begin{equation}
   \left[
   \begin{array}{cc}
