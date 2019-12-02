@@ -11,4 +11,5 @@ There are 2 approaches to design linear sliding surface
 Consider nonlinear system:  
 $ \dot x(t)=f(x,t)+B(x,t)u(t) $  
 Where $ f(x,t)\in \mathbf{R}^n $ and $ B(x,t)\in\mathbf{R}^m$ are assumed to be continuous with bounded continuous derivatives with respect to $ x $. $ B(x,t) $ is bouned away from zero at any time.  
-Applying an appropriate diffeomorphic transformation $ \begin{align} z(t)=\left[\begin{array} z_1(t)\\ z_2(t)\end{array}\right]=Tx(t)\end{align} $
+Applying an appropriate diffeomorphic transformation $ \begin{align} z(t)=\left[\begin{matrix} z_1(t)\\ z_2(t)\end{matrix}\right]=Tx(t)\end{align} $
+The system can be written as 
