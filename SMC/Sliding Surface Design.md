@@ -31,4 +31,4 @@ $ u_o(t) $-->linear feedback control $ u_o(t)=Ku(t) $
 Design integrial switching function as
 \begin{equation} s(x)=Cx(t)-Cx(t_0)-C\int_{t}^{0}(A+BK)x(\tau)dt\end{equation}
 Where $ C $ is the parameter matrix-->$ CB $ nonsingular.  
-When $ t=t_0 $, $ S(x)|_{t=t_{0}}=0 $-->
+When $ t=t_0 $, $ s(x)|_{t=t_{0}}=0 $-->
