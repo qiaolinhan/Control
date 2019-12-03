@@ -47,4 +47,11 @@ The system can be written as
   end{array}
   \right]
   u(t)
-\end{equation}
+  \end{equation}
+
+Design a switching function as $ s(z)=z_2(t)+h(z_1(t)) $, $ s(z)=0 $, thus $ z_2(t)=-h(z_1(t)) $  
+For a linear time-invariant (LTI) system of the form
+$ \dot x(t)=Ax(t)+Bu(t) $  
+The matrix $ B $ is assumed to have full column rank and the pair $ (A,B) $ is assumed to be controllable.
+it is well known that for the controllable system (1.3) there exists a nonsingular transformation.
+* Sliding mode dynamics reduced order
